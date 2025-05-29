@@ -1,0 +1,14 @@
+    <script src="<?php echo base_url();?>soft_assets/js/jquery.min.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/js/moment.min.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/vendor/overlay-scroll/jquery.overlayScrollbars.min.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/vendor/overlay-scroll/custom-scrollbar.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/vendor/daterange/daterange.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/vendor/daterange/custom-daterange.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/vendor/apex/apexcharts.min.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/vendor/apex/custom/dentist/patients.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/vendor/apex/custom/dentist/appointments.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/vendor/apex/custom/dentist/income.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/vendor/apex/custom/dentist/earnings.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/vendor/apex/custom/dentist/claims.js"></script>
+    <script src="<?php echo base_url();?>soft_assets/js/custom.js"></script>
