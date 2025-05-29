@@ -12,7 +12,7 @@
                     <div class="row gx-3">
                       <div class="col-sm-9">
                         <div class="text-primary">
-                          <h4 class="f-rKr">Dr. Arihant Kumar</h4>
+                          <h4 class="f-rKr">👮 Dr. Arihant Kumar</h4>
                           <h6 class="fw-normal">Dentist, BDS, BChD</h6>
                           <div>
                             Increased patients by <span class="fw-bold">90</span> in the last Seven days.
