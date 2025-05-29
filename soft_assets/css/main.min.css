@@ -204,6 +204,11 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(15, 17, 21, 0)
 }
+  .f-rKr {
+        text-shadow: 1px 1px 1px rgba(1, 1, 1, 0.1);
+        font-family: 'Philosopher', sans-serif;
+        font-weight:600;
+        }
 .font-f{
     font-family: 'Philosopher', sans-serif!important;
 }

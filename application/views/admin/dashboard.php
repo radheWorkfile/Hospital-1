@@ -12,7 +12,7 @@
                     <div class="row gx-3">
                       <div class="col-sm-9">
                         <div class="text-primary">
-                          <h4>Dr. Laura Jaden</h4>
+                          <h4 class="f-rKr">Dr. Arihant Kumar</h4>
                           <h6 class="fw-normal">Dentist, BDS, BChD</h6>
                           <div>
                             Increased patients by <span class="fw-bold">90</span> in the last Seven days.
@@ -43,7 +43,7 @@
               <div class="col-sm-12">
                 <div class="card">
                   <div class="card-header">
-                    <h5 class="card-title">Clinic Earnings</h5>
+                    <h5 class="card-title f-rKr">Clinic Details</h5>
                   </div>
                   <div class="card-body pt-0">
 
@@ -56,12 +56,12 @@
                           </div>
                           <div class="m-0">
                             <div class="d-flex align-items-center lh-1">
-                              <h4 class="m-0 fw-bold">$4900</h4>
+                              <h4 class="m-0 fw-bold">👮‍♂️ 4900</h4>
                               <div class="ms-2 text-primary d-flex">
                                 <small>20%</small> <i class="ri-arrow-right-up-line ms-1 fw-bold"></i>
                               </div>
                             </div>
-                            <small>Online Consultation</small>
+                            <small>Total Doctor</small>
                           </div>
                         </div>
                       </div>
@@ -72,12 +72,12 @@
                           </div>
                           <div class="m-0">
                             <div class="d-flex align-items-center lh-1">
-                              <div class="fs-4 fw-bold">$750</div>
+                              <div class="fs-4 fw-bold">👩‍🍳750</div>
                               <div class="ms-2 text-warning d-flex">
                                 <small>26%</small> <i class="ri-arrow-right-down-line ms-1 fw-bold"></i>
                               </div>
                             </div>
-                            <small class="text-dark">Overall Purchases</small>
+                            <small class="text-dark">Total Patient</small>
                           </div>
                         </div>
                       </div>
@@ -88,12 +88,12 @@
                           </div>
                           <div class="m-0">
                             <div class="d-flex align-items-center lh-1">
-                              <div class="fs-4 fw-bold">$560</div>
+                              <div class="fs-4 fw-bold">👩‍🍳560</div>
                               <div class="ms-2 text-primary d-flex">
                                 <small>28%</small> <i class="ri-arrow-right-up-line ms-1 fw-bold"></i>
                               </div>
                             </div>
-                            <small class="text-dark">Pending Invoices</small>
+                            <small class="text-dark">Today Patient</small>
                           </div>
                         </div>
                       </div>
@@ -104,12 +104,12 @@
                           </div>
                           <div class="m-0">
                             <div class="d-flex align-items-center lh-1">
-                              <div class="fs-4 fw-bold">$390</div>
+                              <div class="fs-4 fw-bold">🧚‍♂️390</div>
                               <div class="ms-2 text-primary d-flex">
                                 <small>30%</small> <i class="ri-arrow-right-up-line ms-1 fw-bold"></i>
                               </div>
                             </div>
-                            <small class="text-dark">Monthly Billing</small>
+                            <small class="text-dark">Total Staff</small>
                           </div>
                         </div>
                       </div>
@@ -125,12 +125,12 @@
                           </div>
                           <div class="m-0">
                             <div class="d-flex align-items-center lh-1">
-                              <h4 class="m-0 fw-bold">$4900</h4>
+                              <h4 class="m-0 fw-bold">🕺4900</h4>
                               <div class="ms-2 text-primary d-flex">
                                 <small>20%</small> <i class="ri-arrow-right-up-line ms-1 fw-bold"></i>
                               </div>
                             </div>
-                            <small>Online Consultation</small>
+                            <small>Appointment</small>
                           </div>
                         </div>
                       </div>
@@ -146,7 +146,7 @@
                                 <small>26%</small> <i class="ri-arrow-right-down-line ms-1 fw-bold"></i>
                               </div>
                             </div>
-                            <small class="text-dark">Overall Purchases</small>
+                            <small class="text-dark">Today Income</small>
                           </div>
                         </div>
                       </div>
@@ -162,7 +162,7 @@
                                 <small>28%</small> <i class="ri-arrow-right-up-line ms-1 fw-bold"></i>
                               </div>
                             </div>
-                            <small class="text-dark">Pending Invoices</small>
+                            <small class="text-dark">Today Expense</small>
                           </div>
                         </div>
                       </div>
@@ -178,7 +178,7 @@
                                 <small>30%</small> <i class="ri-arrow-right-up-line ms-1 fw-bold"></i>
                               </div>
                             </div>
-                            <small class="text-dark">Monthly Billing</small>
+                            <small class="text-dark">Monthly Income</small>
                           </div>
                         </div>
                       </div>
@@ -194,7 +194,7 @@
             <div class="row gx-3 my-3">
               <div class="col-md-12 col-lg-12 colc-sm-12">
                 <div class="card mb-3">
-                    <h5 class="card-title px-5 pt-2">Patient Details</h5>
+                    <h5 class="card-title px-5 pt-2 f-rKr">Patient Details</h5>
                   <marquee class="" behavior="scroll" direction="left" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
                  
                     <div class="row d-flex flex-nowrap py-4">
@@ -422,7 +422,7 @@
            <div class="col-xl-6 col-sm-12">
                 <div class="card mb-3">
                   <div class="card-header">
-                    <h5 class="card-title">Doctor Visits</h5>
+                    <h5 class="card-title f-rKr">Doctor Visits</h5>
                   </div>
                   <div class="card-body">
                     <div class="table-outer">
@@ -557,7 +557,7 @@
               <div class="col-sm-12">
                 <div class="card mb-3">
                   <div class="card-header">
-                    <h5 class="card-title">Income</h5>
+                    <h5 class="card-title f-rKr">Income</h5>
                   </div>
                   <div class="card-body">
                     <div class="overflow-hidden">
