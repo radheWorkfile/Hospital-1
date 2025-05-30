@@ -15,6 +15,35 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
+
+     <script>
+        // Get initial time from PHP
+        let timeParts = document.getElementById("clock").innerText.split(":");
+        let hours = parseInt(timeParts[0]);
+        let minutes = parseInt(timeParts[1]);
+        let seconds = parseInt(timeParts[2]);
+
+        function updateClock() {
+            seconds++;
+            if (seconds >= 60) {
+                seconds = 0;
+                minutes++;
+                if (minutes >= 60) {
+                    minutes = 0;
+                    hours++;
+                    if (hours >= 24) hours = 0;
+                }
+            }
+
+            let hh = hours.toString().padStart(2, '0');
+            let mm = minutes.toString().padStart(2, '0');
+            let ss = seconds.toString().padStart(2, '0');
+            document.getElementById("clock").innerText = `${hh}:${mm}:${ss}`;
+        }
+
+        setInterval(updateClock, 1000); // Update every second
+    </script>
+
     <script>
 const xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
 const yValues = [55, 49, 44, 24, 15];

@@ -134,6 +134,14 @@
                 </a>
               </li>
 
+               <li>
+                <a href="<?php echo base_url('setting');?>">
+                  <i class="fa fa-sun text-b" aria-hidden="true"></i>
+                  <span class="menu-text font-f">Software Setting</span>
+                </a>
+              </li>
+
+             
 <!--               
               <li class="treeview">
                 <a href="#!">

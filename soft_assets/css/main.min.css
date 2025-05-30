@@ -1,4 +1,6 @@
-﻿/*!
+﻿
+/*  font-phi   text-shadow  bg-dash t-das text-shadow   */
+/*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -204,7 +206,12 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(15, 17, 21, 0)
 }
+
+.t-border{border-top:4px solid #28a6a7;}
 .font-f{
+    font-family: 'Philosopher', sans-serif!important;
+}
+.font-phi{
     font-family: 'Philosopher', sans-serif!important;
 }
 
@@ -3196,6 +3203,13 @@ textarea.form-control-lg {
     color: rgba(0, 0, 0, 0);
     text-shadow: 0 0 0 #0f1115
 }
+
+.text-shadow{text-shadow: 0 0 0 #a4c1ff}
+
+.bg-dash{background-color: #3fa7a8;}
+.t-das{color: #3fa7a8;}
+
+.m-top-1{margin-top:-0.3rem;}
 
 .form-select-sm {
     padding-top: .25rem;

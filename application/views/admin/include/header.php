@@ -375,30 +375,4 @@
           </div>
           <!-- App header ends -->
 
-          <!-- App hero header starts -->
-          <div class="app-hero-header d-flex align-items-center">
-
-            <!-- Breadcrumb starts -->
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="index-2.html">
-                  <i class="ri-home-3-line"></i>
-                </a>&nbsp;
-                Hospital Management Software
-              </li>
-            </ol>
-            <!-- Breadcrumb ends -->
-
-            <!-- Sales stats starts -->
-            <div class="ms-auto d-lg-flex d-none flex-row">
-              <div class="input-group">
-                <span class="input-group-text bg-primary-lighten">
-                  <i class="ri-calendar-2-line text-primary"></i>
-                </span>
-                <input type="text" id="abc" class="form-control custom-daterange">
-              </div>
-            </div>
-            <!-- Sales stats ends -->
-
-          </div>
-          <!-- App Hero header ends -->
+      
