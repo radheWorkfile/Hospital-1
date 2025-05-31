@@ -33,8 +33,12 @@
               <span class="menu-text font-f">Dashboard</span></a>
               </li>
 
+               <li><a href="<?php echo base_url('admin/dashboard');?>">
+              <i class="fa fa-medkit text-b" aria-hidden="true"></i><span class="menu-text font-f">Docter</span></a>
+              </li>
+
               <li><a href="<?php echo base_url('admin/dashboard');?>">
-              <i class="fa fa-medkit text-b" aria-hidden="true"></i><span class="menu-text font-f">Add Patient</span></a>
+              <i class="fa fa-medkit text-b" aria-hidden="true"></i><span class="menu-text font-f">Patient</span></a>
               </li>
 
               <li><a href="doc-appointments.html">

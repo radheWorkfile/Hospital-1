@@ -3,12 +3,10 @@
 
 
              <!-- Row starts -->
-            <div class="row gx-3">
+            <!-- <div class="row gx-3">
               <div class="col-xxl-6 col-sm-12">
                 <div class="card mb-3 bg-4">
                   <div class="card-body mh-190">
-
-                    <!-- Row starts -->
                     <div class="row gx-3">
                       <div class="col-sm-9">
                         <div class="text-primary">
@@ -23,17 +21,11 @@
                         </div>
                       </div>
                     </div>
-                    <!-- Row ends -->
 
                   </div>
                 </div>
               </div>
-
-
-
-
-              
-            </div>
+            </div> -->
             <!-- Row ends -->
 
 
@@ -42,10 +34,7 @@
             <div class="row gx-3">
               <div class="col-sm-12">
                 <div class="card">
-                  <div class="card-header">
-                    <h5 class="card-title">Clinic Earnings</h5>
-                  </div>
-                  <div class="card-body pt-0">
+                  <div class="card-body pt-4">
 
                     <!-- Row start -->
                     <div class="row g-3">
@@ -191,7 +180,126 @@
             </div>
             <!-- Row ends -->
 
+           
+
+            <!-- Row starts -->
             <div class="row gx-3 my-3">
+            <div class="col-xl-6 col-sm-12">
+            <div class="card mb-3">
+            <div class="card-header">
+            <h5 class="card-title">Doctor Visits</h5>
+            </div>
+            <div class="card-body">
+            <div class="table-outer">
+            <div class="table-responsive">
+            <table class="table align-middle truncate m-0">
+            <thead>
+            <tr>
+            <th>Doctor</th>
+            <th>Date</th>
+            <th>Department</th>
+            <th>Reports</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>
+            <img src="<?php echo base_url();?>soft_assets/images/doctor1.png" class="img-3x rounded-2" alt="Medical Dashboard">
+            Dr.
+            Hector
+            </td>
+            <td>20/05/2024</td>
+            <td>
+            Dentist
+            </td>
+            <td>
+            <div class="d-inline-flex gap-1">
+            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#viewReportsModal1">
+            View Reports
+            </button>
+            </div>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <img src="<?php echo base_url();?>soft_assets/images/doctor5.png" class="img-3x rounded-2" alt="Medical Dashboard">
+            Dr.
+            Mitchel
+            </td>
+            <td>20/05/2024</td>
+            <td>
+            Urologist
+            </td>
+            <td>
+            <div class="d-inline-flex gap-1">
+            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#viewReportsModal1">
+            View Reports
+            </button>
+            </div>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <img src="<?php echo base_url();?>soft_assets/images/doctor3.png" class="img-3x rounded-2" alt="Medical Dashboard">
+            Dr.
+            Fermin
+            </td>
+            <td>18/03/2024</td>
+            <td>
+            Surgeon
+            </td>
+            <td>
+            <div class="d-inline-flex gap-1">
+            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#viewReportsModal1">
+            View Reports
+            </button>
+            </div>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <img src="<?php echo base_url();?>soft_assets/images/doctor3.png" class="img-3x rounded-2" alt="Medical Dashboard">
+            Dr.
+            Fermin
+            </td>
+            <td>18/03/2024</td>
+            <td>
+            Surgeon
+            </td>
+            <td>
+            <div class="d-inline-flex gap-1">
+            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#viewReportsModal1">
+            View Reports
+            </button>
+            </div>
+            </td>
+            </tr>
+            </tbody>
+            </table>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+
+            <div class="col-xxl-4 col-sm-6">
+            <div class="card mb-3"style="padding:3.8rem 0rem;">
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+            </div>
+            </div>
+
+
+
+
+
+
+
+            </div>
+            <!-- Row ends -->
+
+
+             <div class="row gx-3 my-3">
               <div class="col-md-12 col-lg-12 colc-sm-12">
                 <div class="card mb-3">
                     <h5 class="card-title px-5 pt-2">Patient Details</h5>
@@ -414,124 +522,6 @@
             </div>
 
 
-               <!-- Row starts -->
-            <div class="row gx-3 my-3">
-
-              
-
-           <div class="col-xl-6 col-sm-12">
-                <div class="card mb-3">
-                  <div class="card-header">
-                    <h5 class="card-title">Doctor Visits</h5>
-                  </div>
-                  <div class="card-body">
-                    <div class="table-outer">
-                      <div class="table-responsive">
-                        <table class="table align-middle truncate m-0">
-                          <thead>
-                            <tr>
-                              <th>Doctor</th>
-                              <th>Date</th>
-                              <th>Department</th>
-                              <th>Reports</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>
-                                <img src="<?php echo base_url();?>soft_assets/images/doctor1.png" class="img-3x rounded-2" alt="Medical Dashboard">
-                                Dr.
-                                Hector
-                              </td>
-                              <td>20/05/2024</td>
-                              <td>
-                                Dentist
-                              </td>
-                              <td>
-                                <div class="d-inline-flex gap-1">
-                                  <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#viewReportsModal1">
-                                    View Reports
-                                  </button>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <img src="<?php echo base_url();?>soft_assets/images/doctor5.png" class="img-3x rounded-2" alt="Medical Dashboard">
-                                Dr.
-                                Mitchel
-                              </td>
-                              <td>20/05/2024</td>
-                              <td>
-                                Urologist
-                              </td>
-                              <td>
-                                <div class="d-inline-flex gap-1">
-                                  <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#viewReportsModal1">
-                                    View Reports
-                                  </button>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <img src="<?php echo base_url();?>soft_assets/images/doctor3.png" class="img-3x rounded-2" alt="Medical Dashboard">
-                                Dr.
-                                Fermin
-                              </td>
-                              <td>18/03/2024</td>
-                              <td>
-                                Surgeon
-                              </td>
-                              <td>
-                                <div class="d-inline-flex gap-1">
-                                  <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#viewReportsModal1">
-                                    View Reports
-                                  </button>
-                                </div>
-                              </td>
-                            </tr>
-                             <tr>
-                              <td>
-                                <img src="<?php echo base_url();?>soft_assets/images/doctor3.png" class="img-3x rounded-2" alt="Medical Dashboard">
-                                Dr.
-                                Fermin
-                              </td>
-                              <td>18/03/2024</td>
-                              <td>
-                                Surgeon
-                              </td>
-                              <td>
-                                <div class="d-inline-flex gap-1">
-                                  <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#viewReportsModal1">
-                                    View Reports
-                                  </button>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-                <div class="col-xxl-4 col-sm-6">
-                <div class="card mb-3"style="padding:3.8rem 0rem;">
-                  <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
-                </div>
-              </div>
-
-
-            
-
-
-             
-             
-            </div>
-            <!-- Row ends -->
 
 
 
@@ -550,33 +540,33 @@
 
 
 
-         
 
             <!-- Row starts -->
             <div class="row gx-3">
-              <div class="col-sm-12">
-                <div class="card mb-3">
-                  <div class="card-header">
-                    <h5 class="card-title">Income</h5>
-                  </div>
-                  <div class="card-body">
-                    <div class="overflow-hidden">
-                      <div id="income" class="chart-height-xl"></div>
-                    </div>
-                    <div class="my-3 text-center">
-                      <span class="badge bg-primary">22%</span> income has increase that last year.
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="col-sm-12">
+            <div class="card mb-3">
+            <div class="card-header">
+            <h5 class="card-title">Income</h5>
+            </div>
+            <div class="card-body">
+            <div class="overflow-hidden">
+            <div id="income" class="chart-height-xl"></div>
+            </div>
+            <div class="my-3 text-center">
+            <span class="badge bg-primary">22%</span> income has increase that last year.
+            </div>
+            </div>
+            </div>
+            </div>
             </div>
             <!-- Row ends -->
 
-         
 
-  
 
-    
 
-          </div>
-          <!-- App body ends -->
+
+
+
+            </div>
+            </div>
+            <!-- App body ends -->
