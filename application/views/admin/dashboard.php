@@ -1,7 +1,15 @@
+      <!-- App hero header starts -->
+      <div class="app-hero-header d-flex align-items-center">
+      <ol class="breadcrumb"><li class="breadcrumb-item"> <a href="index-2.html">
+      <i class="ri-home-3-line"></i> </a>&nbsp; Hospital Management Software </li> </ol>
+      <div class="ms-auto d-lg-flex d-none flex-row"><div class="input-group">
+      <span class="input-group-text bg-primary-lighten"> <i class="ri-calendar-2-line text-primary"></i>
+      </span> <input type="text" id="abc" class="form-control custom-daterange"> </div> </div> </div>
+      <!-- App Hero header ends -->   
+   
+   
    <!-- App body starts -->
           <div class="app-body">
-
-
              <!-- Row starts -->
             <!-- <div class="row gx-3">
               <div class="col-xxl-6 col-sm-12">
